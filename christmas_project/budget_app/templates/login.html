@@ -9,7 +9,7 @@
     {% csrf_token %}
     Wybierz członka rodziny: <select name="family_member" id="family_member_id">
     {%for fam in family %}
-    <option value="id"> {{fam.name}} </option>
+    <option value={{fam.id}}> {{fam.name}} </option>
     {% endfor %}
     <option value="new" > Nowy </option>
 </select> </br>
