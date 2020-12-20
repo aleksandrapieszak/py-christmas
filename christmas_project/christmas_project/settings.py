@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'christmas_project.wsgi.application'
 DATABASES = {
     'default': {
         'HOST': '127.0.0.1',
-        'NAME': 'exercises',
+        'NAME': 'budget',
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'USER': 'postgres',
         'PASSWORD': 'coderslab',
